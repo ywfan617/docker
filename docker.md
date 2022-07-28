@@ -124,6 +124,7 @@
     + docker attach containerid/name：直接进入容器启动命令的终端，不会启动新的进程
     + docker exec -it containerid/name  ：是在容器中打开新的终端，并且可以启动新的进程
     + docker cp containerid/name:/tmp/yum.log /root：容器中的内容拷贝到主机  
+    + docker update containerId --restart=always
 
 ## docker镜像  
 
